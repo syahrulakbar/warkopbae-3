@@ -1,0 +1,229 @@
+.resto-detail-section {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.resto-detail-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.image-detail-resto {
+  padding: 2%;
+  width: 50%;
+}
+.image-detail-resto img {
+  width: 100%;
+  border-radius: 20px;
+}
+.desc-container {
+  width: 50%;
+  padding: 2%;
+}
+.resto-detail-desc {
+  color: black;
+  border-radius: 2%;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0/0.2), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  justify-content: center;
+  padding: 3%;
+  margin: 2%;
+}
+.resto-detail-desc h3 {
+  font-size: 1.6em;
+}
+.resto-detail-desc h4.resto-detail-address {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.resto-detail-desc h4.desc-detail-resto {
+  font-size: 1.2em;
+}
+.resto-detail-title {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+.resto-detail-title p.rating-detail-resto {
+  margin-right: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 5px;
+  color: black;
+}
+.desc-container p {
+  font-weight: lighter;
+}
+.review-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.review-section h2 {
+  width: 100%;
+  text-align: center;
+}
+.review-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-card-container {
+  width: 100%;
+  height: 30vh;
+  overflow-y: scroll;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3f4f6;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.review-card-container::-webkit-scrollbar {
+  width: 5px;
+}
+.review-card-container::-webkit-scrollbar-track {
+  background: #9ca3af;
+}
+.review-card-container::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+}
+.review-card-container::-webkit-scrollbar-thumb:hover {
+  background: #d1d5db;
+}
+.review-card {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.card-review {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.card-review h5 {
+  font-size: 1.2em;
+}
+.card-review p {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.add-review-container {
+  background-color: #0f172a;
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.review-form {
+  margin-top: 2%;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #0f172a;
+}
+.review-form button {
+  cursor: pointer;
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: white;
+  border: solid 2px black;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.review-form button:hover {
+  background-color: black;
+  color: white;
+  transition: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.name-container {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.name-container input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 6px;
+  padding: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.review-container {
+  margin-bottom: 8px;
+  width: 100%;
+}
+.review-container textarea {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  border: solid 2px #0f172a;
+  border-radius: 6px;
+  padding: 0.75rem;
+  --tw-text-opacity: 1;
+  font-family: "Poppins", sans-serif;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+.review-container textarea:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (max-width: 1000px) {
+  .resto-detail-content {
+    display: block;
+  }
+  .desc-container p {
+    font-size: 0.9em;
+  }
+  .image-detail-resto {
+    padding-bottom: 0;
+    width: 100%;
+  }
+  .desc-container {
+    width: 100%;
+    margin: 0;
+  }
+  .resto-detail-desc h3 {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 500px) {
+  .review-list {
+    width: 70%;
+  }
+  .card-review h5 {
+    font-size: 1em;
+  }
+  .card-review p {
+    font-size: 0.8em;
+  }
+  .review-form {
+    width: 70%;
+  }
+}
