@@ -1,23 +1,24 @@
+/* eslint-disable object-curly-newline */
 const DrawerInitiator = {
   init({ button, drawer, content }) {
     button.addEventListener("click", (event) => {
-      this._toggleDrawer(event, drawer);
-      button.classList.toggle("active");
+      this._toggleDrawer(button, event, drawer);
     });
 
     content.addEventListener("click", (event) => {
-      this._closeDrawer(event, drawer);
-      button.classList.remove("active");
+      this._closeDrawer(button, event, drawer);
     });
   },
 
-  _toggleDrawer(event, drawer) {
+  _toggleDrawer(button, event, drawer) {
     event.stopPropagation();
+    button.classList.toggle("active");
     drawer.classList.toggle("show");
   },
 
-  _closeDrawer(event, drawer) {
+  _closeDrawer(button, event, drawer) {
     event.stopPropagation();
+    button.classList.remove("active");
     drawer.classList.remove("show");
   },
 };

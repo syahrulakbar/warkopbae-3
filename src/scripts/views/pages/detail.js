@@ -1,11 +1,13 @@
 import RestaurantSource from "../../data/restaurant-source";
 import UrlParser from "../../routes/url-parser";
 import RestoDetail from "../templates/resto-detail";
+import Spinner from "../templates/spinner";
 
 const Detail = {
   async render() {
     return `
   <div id="main-container">
+    <div id="loading"></div>
     <section id="detail-resto"></section>
     
     <div class="add-review-container">
@@ -28,11 +30,19 @@ const Detail = {
   async afterRender() {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const detailContainer = document.querySelector("#detail-resto");
+    const loading = document.querySelector("#loading");
+    detailContainer.style.display = "none";
+    loading.innerHTML = Spinner();
     try {
       const data = await RestaurantSource.getRestaurantDetail(url.id);
       detailContainer.innerHTML += RestoDetail(data);
+      setTimeout(() => {
+        detailContainer.style.display = "block";
+        loading.style.display = "none";
+      }, 800);
     } catch (error) {
       console.log(error);
+      loading.style.display = "none";
     }
   },
 };

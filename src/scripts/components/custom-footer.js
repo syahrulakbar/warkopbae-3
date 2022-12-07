@@ -5,7 +5,7 @@ class CustomFooter extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <footer aria-label="footer menu">
+    <footer id="footer-section" aria-label="footer menu">
       <div class="border"></div>
       <div class="nav-footer">
         <div>
@@ -13,8 +13,8 @@ class CustomFooter extends HTMLElement {
           <h4 tabindex="0">the best place to create new taste</h4>
         </div>
         <ul>
-          <li><a tabindex="0" href="#/">Home</a></li>
-          <li><a tabindex="0" href="#">Favorite</a></li>
+          <li><a tabindex="0" href="#/home">Home</a></li>
+          <li><a tabindex="0" href="#/favorite">Favorite</a></li>
           <li><a tabindex="0" href="https://know-me.me/" target="_blank">About Us</a></li>
         </ul>
       </div>

@@ -4,7 +4,12 @@ import swRegister from "./utils/sw-register";
 
 import "regenerator-runtime";
 import "../styles/main.css";
-import "../styles/detail.css";
+import "../styles/resto-detail.css";
+import "../styles/loading.css";
+import "../styles/navbar.css";
+import "../styles/footer.css";
+import "../styles/resto-list.css";
+import "../styles/responsive.css";
 import "./components/custom-footer";
 import "./components/navbar";
 import "./components/hero-section";
@@ -18,9 +23,7 @@ const app = new App({
 window.addEventListener("hashchange", () => {
   app.renderPage();
 });
-window.addEventListener("load", () => {
-  app.renderPage();
-});
+
 window.addEventListener("load", () => {
   app.renderPage();
   swRegister();

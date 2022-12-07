@@ -33,6 +33,11 @@
 .resto-detail-desc h3 {
   font-size: 1.6em;
 }
+.resto-detail-desc svg {
+  width: 20px;
+  height: 15px;
+  margin-right: 4px;
+}
 .resto-detail-desc h4.resto-detail-address {
   font-size: 1.1em;
   font-weight: normal;
@@ -62,10 +67,48 @@
 .desc-container p {
   font-weight: lighter;
 }
+.menu-section {
+  width: 100%;
+  padding: 2%;
+  background-color: #f3f4f6;
+  margin-bottom: 4%;
+}
+
+.menu-section svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+.menu-section h2 {
+  text-align: center;
+  color: black;
+}
+.menu-section h3 {
+  text-align: center;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foods-container,
+.drinks-container {
+  width: 20%;
+  padding: 2%;
+  margin-right: 2%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
 .review-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.review-section svg {
+  width: 20px;
+  height: 15px;
 }
 .review-section h2 {
   width: 100%;
@@ -124,7 +167,6 @@
 }
 
 .add-review-container {
-  background-color: #0f172a;
   width: 100%;
   margin-bottom: 5%;
   display: flex;
@@ -192,38 +234,4 @@
 .review-container textarea:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media (max-width: 1000px) {
-  .resto-detail-content {
-    display: block;
-  }
-  .desc-container p {
-    font-size: 0.9em;
-  }
-  .image-detail-resto {
-    padding-bottom: 0;
-    width: 100%;
-  }
-  .desc-container {
-    width: 100%;
-    margin: 0;
-  }
-  .resto-detail-desc h3 {
-    font-size: 1.3em;
-  }
-}
-@media (max-width: 500px) {
-  .review-list {
-    width: 70%;
-  }
-  .card-review h5 {
-    font-size: 1em;
-  }
-  .card-review p {
-    font-size: 0.8em;
-  }
-  .review-form {
-    width: 70%;
-  }
 }

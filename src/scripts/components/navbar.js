@@ -12,9 +12,9 @@ class Navbar extends HTMLElement {
           <span id="line"></span>
           <span></span>
         </button>
-        <ul id="navbar" class="show">
-          <li><a href="/">Home</a></li>
-          <li><a href="#/favorite">Favorite</a></li>
+        <ul id="navbar" >
+          <li><a href="#/home" id="navHome" class="active" >Home</a></li>
+          <li><a href="#/favorite" id="navFavorite">Favorite</a></li>
           <li><a href="https://know-me.me/" target="_blank">About Us</a></li>
         </ul>
       </nav>`;

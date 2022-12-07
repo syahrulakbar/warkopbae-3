@@ -1,13 +1,13 @@
-/* eslint-disable no-unused-vars */
-self.addEventListener("install", (event) => {
-  // TODO: Caching App Shell Resource
+import { precacheAndRoute } from "workbox-precaching";
+
+// Do precaching
+precacheAndRoute(self.__WB_MANIFEST);
+
+self.addEventListener("install", () => {
+  console.log("Service Worker: Installed");
+  self.skipWaiting();
 });
 
-self.addEventListener("activate", (event) => {
-  // TODO: Delete old caches
-});
-
-self.addEventListener("fetch", (event) => {
-  event.respondWith(fetch(event.request));
-  // TODO: Add/get fetch request to/from caches
+self.addEventListener("push", () => {
+  console.log("Service Worker: Pushed");
 });
