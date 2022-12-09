@@ -1,6 +1,7 @@
 import RestaurantSource from "../../data/restaurant-source";
 import listResto from "../templates/list-resto";
 import Spinner from "../templates/spinner";
+import { initSwalError } from "../../utils/alert-initiator";
 
 const Home = {
   async render() {
@@ -21,13 +22,12 @@ const Home = {
   async afterRender() {
     const itemContainer = document.querySelector(".item-resto");
     const homeContainer = document.querySelector("#home-container");
+    const mainContainer = document.querySelector(".main-container");
     const loading = document.querySelector("#loading");
-    const footer = document.querySelector("#footer-section");
     const navFavorite = document.querySelector("#navFavorite");
 
     navFavorite.classList.remove("active");
     homeContainer.style.display = "none";
-    footer.style.display = "none";
     loading.innerHTML = Spinner();
     try {
       const data = await RestaurantSource.getRestaurantList();
@@ -36,12 +36,18 @@ const Home = {
       });
       setTimeout(() => {
         homeContainer.style.display = "block";
-        footer.style.display = "block";
         loading.style.display = "none";
       }, 800);
     } catch (error) {
       console.log(error);
       loading.style.display = "none";
+      mainContainer.innerHTML = `
+      <div class="error-page">
+        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="banner-image" srcset="" />
+        <h5 tabindex="0" class="error-title">Sorry :(</h5>
+        <p tabindex="0" class="error-desc">Error: ${error.message}</p>
+      </div>`;
+      initSwalError(error.message);
     }
   },
 };

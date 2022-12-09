@@ -1,5 +1,6 @@
-const { merge } = require("webpack-merge");
 const path = require("path");
+const { merge } = require("webpack-merge");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const common = require("./webpack.common");
 
 module.exports = merge(common, {
@@ -17,9 +18,10 @@ module.exports = merge(common, {
     client: {
       overlay: {
         errors: true,
-        warnings: false,
+        warnings: true,
       },
     },
     compress: true,
   },
+  plugins: [new CleanWebpackPlugin()],
 });

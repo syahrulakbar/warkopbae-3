@@ -7,7 +7,8 @@
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "karma start",
-    "serve": "http-server dist"
+    "serve": "http-server dist",
+    "build-serve": "npm run build && npm run serve"
   },
   "keywords": [],
   "author": "Mochamad Syahrul Akbar <07tav2akbar2gmail.com>",
@@ -16,6 +17,7 @@
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.28.0",
@@ -42,7 +44,9 @@
     "workbox-webpack-plugin": "^6.5.4"
   },
   "dependencies": {
+    "idb": "^7.1.1",
     "regenerator-runtime": "^0.13.9",
+    "sweetalert2": "^11.6.15",
     "workbox-window": "^6.5.4"
   }
 }

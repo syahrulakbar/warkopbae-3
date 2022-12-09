@@ -61,6 +61,9 @@
   .drinks-container {
     width: 80%;
   }
+  .error-image {
+    width: 50%;
+  }
 }
 
 @media (max-width: 700px) {

@@ -194,7 +194,8 @@
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.review-form button:hover {
+.review-form button:hover,
+.review-form button:focus {
   background-color: black;
   color: white;
   transition: all;

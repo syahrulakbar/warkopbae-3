@@ -42,7 +42,7 @@ const RestoDetail = (resto) => `
       ${resto.menus.foods
         .map(
           (food) => `
-          <li>${food.name}</li>
+          <li tabindex="0">${food.name}</li>
           `
         )
         .join("")}   
@@ -57,7 +57,7 @@ const RestoDetail = (resto) => `
         ${resto.menus.drinks
           .map(
             (drink) => `
-            <li>${drink.name}</li>
+            <li tabindex="0">${drink.name}</li>
             `
           )
           .join("")}
