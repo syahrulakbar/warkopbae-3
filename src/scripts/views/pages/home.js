@@ -43,7 +43,7 @@ const Home = {
       loading.style.display = "none";
       mainContainer.innerHTML = `
       <div class="error-page">
-        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="banner-image" srcset="" />
+        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="error-image" srcset="" />
         <h5 tabindex="0" class="error-title">Sorry :(</h5>
         <p tabindex="0" class="error-desc">Error: ${error.message}</p>
       </div>`;

@@ -29,7 +29,7 @@ const FavoritePage = {
       if (restaurant.length === 0) {
         favoriteContent.innerHTML = `
         <div class="empty-favorite">
-          <img tabindex="0" class="empty-image" src="./images/empty_data.png" alt="banner-image" srcset="" />
+          <img tabindex="0" class="empty-image" src="./images/empty_data.png" alt="empty data image" srcset="" />
           <h5 tabindex="0" class="empty-title">Add your favorite restaurant</h5>
           <p tabindex="0" class="empty-desc">add your favorite restaurant by pressing the heart button on the restaurant detail page</p>
         </div>`;
@@ -42,7 +42,7 @@ const FavoritePage = {
       loading.style.display = "none";
       favoriteContainer.innerHTML = `
       <div class="error-page">
-        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="banner-image" srcset="" />
+        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="error-image" srcset="" />
         <h5 tabindex="0" class="error-title">Sorry :(</h5>
         <p tabindex="0" class="error-desc">Error: ${err.message}</p>
       </div>`;
