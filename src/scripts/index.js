@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default-member */
 /* eslint-disable object-curly-newline */
 import App from "./views/App";
 import swRegister from "./utils/sw-register";
