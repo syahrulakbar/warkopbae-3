@@ -9,7 +9,8 @@ class HeroSection extends HTMLElement {
     <img tabindex="0" class="banner-image" src="./images/heros/hero-image_4.jpg" alt="banner-image" srcset="" />
     <div class="desc">
       <div class="desc-content">
-        <h2 tabindex="0">Find <span>A Good Place,</span> <br />Start Your <span>Good Taste</span></h2>
+        <h2 tabindex="0">Find <span>A Good Place,
+        </span>Start Your <span>Good Taste</span></h2>
       </div>
     </div>
   </section>`;

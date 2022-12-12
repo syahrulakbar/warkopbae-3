@@ -19,6 +19,7 @@ section.hero-section {
   text-align: center;
   font-size: 4rem;
   color: white;
+  white-space: pre-line;
 }
 .desc-content h2 span {
   background-color: rgb(95, 141, 78, 0.7);
@@ -35,14 +36,13 @@ h2.sub-title {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 2%;
 }
 .item-resto {
   width: 100%;
   display: flex;
-  padding: 0 50px;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: 2%;
 }
 .tag-card {
   text-decoration: none;
@@ -64,6 +64,7 @@ h2.sub-title {
 .card img {
   transition: transform 0.5s ease;
   width: 100%;
+  object-fit: cover;
   height: 300px;
   border-radius: 5%;
 }

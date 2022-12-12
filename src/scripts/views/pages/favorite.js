@@ -11,13 +11,15 @@ const FavoritePage = {
       <div class="title-content">
         <h2 tabindex="0" class="title-page">Favorite Restaurant</h2>
       </div>    
-      <section tabindex="0" class="main-content" aria-label="favorite restaurant">
+      <section tabindex="0" class="main-content" aria-label="list restaurant">
+      <div class="item-resto"></div>
+      </section>
     </div>
       `;
   },
 
   async afterRender() {
-    const favoriteContent = document.querySelector(".main-content");
+    const favoriteContent = document.querySelector(".item-resto");
     const favoriteContainer = document.querySelector(".favorite-container");
     const loading = document.querySelector("#loading");
     loading.innerHTML = Spinner();
@@ -42,7 +44,7 @@ const FavoritePage = {
       loading.style.display = "none";
       favoriteContainer.innerHTML = `
       <div class="error-page">
-        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="error-image" srcset="" />
+        <img tabindex="0" class="error-image" src="./images/notfound.png" alt="error image" srcset="" />
         <h5 tabindex="0" class="error-title">Sorry :(</h5>
         <p tabindex="0" class="error-desc">Error: ${err.message}</p>
       </div>`;
