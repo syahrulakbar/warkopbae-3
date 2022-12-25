@@ -3,6 +3,7 @@ import listResto from "../templates/list-resto";
 import Spinner from "../templates/spinner";
 import CustomFooter from "../templates/footer";
 import { initSwalError } from "../../utils/alert-initiator";
+import { createSkeletonRestoTemplate } from "../templates/template-creator";
 
 const Home = {
   async render() {
@@ -13,7 +14,9 @@ const Home = {
         <hero-section></hero-section>
         <h2 tabindex="0" class="sub-title">Explore Restaurant</h2>
         <section tabindex="0" class="main-content" aria-label="list restaurant">
-        <div class="item-resto"></div>
+          <div class="item-resto">
+          ${createSkeletonRestoTemplate(20)}
+          </div>
         </section>
       </div>
       <footer id="footer-section" aria-label="footer menu"/>
@@ -22,25 +25,26 @@ const Home = {
   },
   //   Fungsi ini akan dipanggil setelah render ()
   async afterRender() {
-    const itemContainer = document.querySelector(".item-resto");
-    const homeContainer = document.querySelector("#home-container");
+    // const heroContainer = document.querySelector("#hero-container");
     const mainContainer = document.querySelector(".main-container");
     const footer = document.querySelector("#footer-section");
     const loading = document.querySelector("#loading");
     const navFavorite = document.querySelector("#navFavorite");
 
     navFavorite.classList.remove("active");
-    homeContainer.style.display = "none";
     loading.innerHTML = Spinner();
     try {
+      // heroContainer.innerHTML = `
+      // <hero-section></hero-section>
+      // `;
+      const itemContainer = document.querySelector(".item-resto");
+      itemContainer.innerHTML = "";
+
       const data = await RestaurantSource.getRestaurantList();
       data.forEach((restaurant) => {
         itemContainer.innerHTML += listResto(restaurant);
       });
-      setTimeout(() => {
-        homeContainer.style.display = "block";
-        loading.style.display = "none";
-      }, 50);
+      loading.style.display = "none";
       footer.innerHTML = CustomFooter();
     } catch (error) {
       console.log(error);

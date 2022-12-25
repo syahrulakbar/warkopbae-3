@@ -1,8 +1,8 @@
 {
-  "hash": "fe3a6bcd64466ab82275",
+  "hash": "579032f680ed1ca7b684",
   "version": "5.75.0",
-  "time": 4841,
-  "builtAt": 1671976147075,
+  "time": 3688,
+  "builtAt": 1671982556970,
   "publicPath": "auto",
   "outputPath": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\dist",
   "assetsByChunkName": {
@@ -282,7 +282,7 @@
     {
       "type": "asset",
       "name": "app~309f7e27.bundle.js",
-      "size": 28209,
+      "size": 28731,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -305,7 +305,7 @@
         {
           "type": "sourceMap",
           "name": "app~309f7e27.bundle.js.map",
-          "size": 19678,
+          "size": 20777,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -354,7 +354,7 @@
     {
       "type": "asset",
       "name": "app~e4317507.bundle.js",
-      "size": 26717,
+      "size": 26719,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -466,7 +466,7 @@
     {
       "type": "asset",
       "name": "app~bc85f0ca.bundle.js",
-      "size": 18477,
+      "size": 18615,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -489,7 +489,7 @@
         {
           "type": "sourceMap",
           "name": "app~bc85f0ca.bundle.js.map",
-          "size": 7743,
+          "size": 8055,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -538,7 +538,7 @@
     {
       "type": "asset",
       "name": "./sw.bundle.js",
-      "size": 17997,
+      "size": 18076,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -870,6 +870,26 @@
       "info": {
         "copied": true,
         "sourceFilename": "src/public/app.webmanifest"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "images/placeholder.png",
+      "size": 177,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/images/placeholder.png"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -5230,16 +5250,16 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
           "name": "./src/scripts/data/favorite-restaurant-idb.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
-          "index": 15,
-          "preOrderIndex": 15,
-          "index2": 13,
-          "postOrderIndex": 13,
+          "index": 16,
+          "preOrderIndex": 16,
+          "index2": 14,
+          "postOrderIndex": 14,
           "cacheable": true,
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-          "issuerName": "./src/scripts/views/pages/favorite.js",
+          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "issuerName": "./src/scripts/views/pages/detail.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\index.js",
@@ -5257,16 +5277,16 @@
               "id": 6518
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-              "name": "./src/scripts/views/pages/favorite.js",
-              "id": 7488
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "name": "./src/scripts/views/pages/detail.js",
+              "id": 7371
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 2186,
-          "issuerId": 7488,
+          "issuerId": 7371,
           "chunks": [
             135
           ],
@@ -5296,7 +5316,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../data/favorite-restaurant-idb",
-              "loc": "51:37-58",
+              "loc": "53:37-58",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             },
@@ -5426,7 +5446,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../data/restaurant-source",
-              "loc": "46:21-57",
+              "loc": "48:21-57",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             },
@@ -5454,7 +5474,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../data/restaurant-source",
-              "loc": "45:21-55",
+              "loc": "49:21-55",
               "moduleId": 2660,
               "resolvedModuleId": 2660
             }
@@ -5708,9 +5728,9 @@
               "id": 6518
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-              "name": "./src/scripts/views/pages/favorite.js",
-              "id": 7488
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "name": "./src/scripts/views/pages/detail.js",
+              "id": 7371
             },
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -6071,7 +6091,7 @@
       "auxiliaryFiles": [
         "app~e4317507.bundle.js.map"
       ],
-      "hash": "720e7d7e1e2851e9f2d0",
+      "hash": "2c98ebca1539b505089d",
       "childrenByOrder": {},
       "id": 337,
       "siblings": [
@@ -6275,7 +6295,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../routes/url-parser",
-              "loc": "37:20-59",
+              "loc": "38:20-59",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             }
@@ -6428,7 +6448,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/alert-initiator",
-              "loc": "81:26-39",
+              "loc": "84:26-39",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             },
@@ -6442,7 +6462,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/alert-initiator",
-              "loc": "88:26-41",
+              "loc": "91:26-41",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             },
@@ -6456,7 +6476,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/alert-initiator",
-              "loc": "112:14-27",
+              "loc": "115:14-27",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             },
@@ -6512,7 +6532,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/alert-initiator",
-              "loc": "64:14-27",
+              "loc": "65:14-27",
               "moduleId": 2660,
               "resolvedModuleId": 2660
             }
@@ -6633,8 +6653,8 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
           "name": "./src/scripts/utils/like-button-presenter.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "index": 20,
-          "preOrderIndex": 20,
+          "index": 21,
+          "preOrderIndex": 21,
           "index2": 17,
           "postOrderIndex": 17,
           "cacheable": true,
@@ -6699,7 +6719,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/like-button-presenter",
-              "loc": "49:14-38",
+              "loc": "51:14-38",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             }
@@ -6798,7 +6818,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../utils/post-review",
-              "loc": "86:33-43",
+              "loc": "89:33-43",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             }
@@ -7205,9 +7225,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 35262,
+      "size": 35497,
       "sizes": {
-        "javascript": 35262
+        "javascript": 35497
       },
       "names": [
         "app~bc85f0ca"
@@ -7222,7 +7242,7 @@
       "auxiliaryFiles": [
         "app~bc85f0ca.bundle.js.map"
       ],
-      "hash": "7da59800c291143b0fbb",
+      "hash": "0d0707181109a293ea85",
       "childrenByOrder": {},
       "id": 492,
       "siblings": [
@@ -7326,9 +7346,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 18826,
+          "size": 19061,
           "sizes": {
-            "javascript": 18826
+            "javascript": 19061
           },
           "built": true,
           "codeGenerated": true,
@@ -7337,8 +7357,8 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
           "name": "./src/scripts/views/pages/detail.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
-          "index": 18,
-          "preOrderIndex": 18,
+          "index": 19,
+          "preOrderIndex": 19,
           "index2": 20,
           "postOrderIndex": 20,
           "cacheable": true,
@@ -7410,13 +7430,14 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 14:0-121:2",
+            "Statement (VariableDeclaration) with side effects in source code at 15:0-124:2",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/favorite-restaurant-idb.js: Module ./src/scripts/data/favorite-restaurant-idb.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~49ea73a0)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/restaurant-source.js: Module ./src/scripts/data/restaurant-source.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) )",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/routes/url-parser.js: Module ./src/scripts/routes/url-parser.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/alert-initiator.js: Module ./src/scripts/utils/alert-initiator.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/like-button-presenter.js: Module ./src/scripts/utils/like-button-presenter.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/post-review.js: Module ./src/scripts/utils/post-review.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/templates/footer.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/resto-detail.js: Module ./src/scripts/views/templates/resto-detail.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/review.js: Module ./src/scripts/views/templates/review.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)"
@@ -7439,9 +7460,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 44255,
+      "size": 45198,
       "sizes": {
-        "javascript": 44255
+        "javascript": 45198
       },
       "names": [
         "app~309f7e27"
@@ -7456,7 +7477,7 @@
       "auxiliaryFiles": [
         "app~309f7e27.bundle.js.map"
       ],
-      "hash": "230972e8beed109b1525",
+      "hash": "7ac1fd4d08dca33f9841",
       "childrenByOrder": {},
       "id": 924,
       "siblings": [
@@ -7486,10 +7507,10 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
           "name": "./src/scripts/views/pages/favorite.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-          "index": 14,
-          "preOrderIndex": 14,
-          "index2": 14,
-          "postOrderIndex": 14,
+          "index": 15,
+          "preOrderIndex": 15,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -7562,7 +7583,7 @@
             "Statement (VariableDeclaration) with side effects in source code at 10:0-75:2",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/favorite-restaurant-idb.js: Module ./src/scripts/data/favorite-restaurant-idb.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) app~49ea73a0)",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/alert-initiator.js: Module ./src/scripts/utils/alert-initiator.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) app~e4317507)",
-            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/pages/home.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/templates/footer.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/list-resto.js: Module ./src/scripts/views/pages/home.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js"
           ],
@@ -7572,9 +7593,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 16700,
+          "size": 16827,
           "sizes": {
-            "javascript": 16700
+            "javascript": 16827
           },
           "built": true,
           "codeGenerated": true,
@@ -7585,8 +7606,8 @@
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
           "index": 5,
           "preOrderIndex": 5,
-          "index2": 10,
-          "postOrderIndex": 10,
+          "index2": 11,
+          "postOrderIndex": 11,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -7670,12 +7691,13 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 10:0-73:2",
+            "Statement (VariableDeclaration) with side effects in source code at 11:0-74:2",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/restaurant-source.js: Module ./src/scripts/data/restaurant-source.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) )",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/alert-initiator.js: Module ./src/scripts/utils/alert-initiator.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) app~e4317507)",
-            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/pages/favorite.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/templates/footer.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js",
             "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/list-resto.js: Module ./src/scripts/views/pages/favorite.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
-            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js"
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js",
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/template-creator.js: Module ./src/scripts/views/templates/template-creator.js is referenced from different chunks by these modules: ./src/scripts/utils/like-button-presenter.js"
           ],
           "depth": 3
         },
@@ -7694,10 +7716,10 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\footer.js",
           "name": "./src/scripts/views/templates/footer.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\footer.js",
-          "index": 13,
-          "preOrderIndex": 13,
-          "index2": 9,
-          "postOrderIndex": 9,
+          "index": 14,
+          "preOrderIndex": 14,
+          "index2": 10,
+          "postOrderIndex": 10,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -7736,6 +7758,34 @@
           ],
           "assets": [],
           "reasons": [
+            {
+              "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "module": "./src/scripts/views/pages/detail.js",
+              "moduleName": "./src/scripts/views/pages/detail.js",
+              "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "resolvedModule": "./src/scripts/views/pages/detail.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../templates/footer",
+              "loc": "14:0-47",
+              "moduleId": 7371,
+              "resolvedModuleId": 7371
+            },
+            {
+              "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "module": "./src/scripts/views/pages/detail.js",
+              "moduleName": "./src/scripts/views/pages/detail.js",
+              "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "resolvedModule": "./src/scripts/views/pages/detail.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../templates/footer",
+              "loc": "69:33-45",
+              "moduleId": 7371,
+              "resolvedModuleId": 7371
+            },
             {
               "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
               "module": "./src/scripts/views/pages/favorite.js",
@@ -7788,7 +7838,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../templates/footer",
-              "loc": "55:33-45",
+              "loc": "56:33-45",
               "moduleId": 2660,
               "resolvedModuleId": 2660
             }
@@ -7911,7 +7961,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../templates/list-resto",
-              "loc": "49:43-52",
+              "loc": "53:43-52",
               "moduleId": 2660,
               "resolvedModuleId": 2660
             }
@@ -7943,10 +7993,10 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\resto-detail.js",
           "name": "./src/scripts/views/templates/resto-detail.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\resto-detail.js",
-          "index": 19,
-          "preOrderIndex": 19,
-          "index2": 15,
-          "postOrderIndex": 15,
+          "index": 20,
+          "preOrderIndex": 20,
+          "index2": 16,
+          "postOrderIndex": 16,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -8009,7 +8059,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../templates/resto-detail",
-              "loc": "61:43-54",
+              "loc": "63:43-54",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             }
@@ -8107,7 +8157,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../templates/review",
-              "loc": "66:33-42",
+              "loc": "68:33-42",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             }
@@ -8136,10 +8186,10 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\spinner.js",
           "name": "./src/scripts/views/templates/spinner.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\spinner.js",
-          "index": 12,
-          "preOrderIndex": 12,
-          "index2": 8,
-          "postOrderIndex": 8,
+          "index": 13,
+          "preOrderIndex": 13,
+          "index2": 9,
+          "postOrderIndex": 9,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -8202,7 +8252,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../templates/spinner",
-              "loc": "43:34-41",
+              "loc": "45:34-41",
               "moduleId": 7371,
               "resolvedModuleId": 7371
             },
@@ -8258,7 +8308,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../templates/spinner",
-              "loc": "42:34-41",
+              "loc": "41:34-41",
               "moduleId": 2660,
               "resolvedModuleId": 2660
             }
@@ -8276,9 +8326,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 566,
+          "size": 1382,
           "sizes": {
-            "javascript": 566
+            "javascript": 1382
           },
           "built": true,
           "codeGenerated": true,
@@ -8287,16 +8337,16 @@
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\template-creator.js",
           "name": "./src/scripts/views/templates/template-creator.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\template-creator.js",
-          "index": 21,
-          "preOrderIndex": 21,
-          "index2": 16,
-          "postOrderIndex": 16,
+          "index": 12,
+          "preOrderIndex": 12,
+          "index2": 8,
+          "postOrderIndex": 8,
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "dependent": false,
-          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "issuerName": "./src/scripts/utils/like-button-presenter.js",
+          "dependent": true,
+          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+          "issuerName": "./src/scripts/views/pages/home.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\index.js",
@@ -8314,21 +8364,16 @@
               "id": 6518
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 7371
-            },
-            {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-              "name": "./src/scripts/utils/like-button-presenter.js",
-              "id": 7077
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+              "name": "./src/scripts/views/pages/home.js",
+              "id": 2660
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 4150,
-          "issuerId": 7077,
+          "issuerId": 2660,
           "chunks": [
             924
           ],
@@ -8375,18 +8420,48 @@
               "loc": "114:42-73",
               "moduleId": 7077,
               "resolvedModuleId": 7077
+            },
+            {
+              "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+              "module": "./src/scripts/views/pages/home.js",
+              "moduleName": "./src/scripts/views/pages/home.js",
+              "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+              "resolvedModule": "./src/scripts/views/pages/home.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "../templates/template-creator",
+              "loc": "10:0-76",
+              "moduleId": 2660,
+              "resolvedModuleId": 2660
+            },
+            {
+              "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+              "module": "./src/scripts/views/pages/home.js",
+              "moduleName": "./src/scripts/views/pages/home.js",
+              "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+              "resolvedModule": "./src/scripts/views/pages/home.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../templates/template-creator",
+              "loc": "18:411-438",
+              "moduleId": 2660,
+              "resolvedModuleId": 2660
             }
           ],
           "usedExports": [
             "createLikeRestoButtonTemplate",
+            "createSkeletonRestoTemplate",
             "createUnlikeRestoButtonTemplate"
           ],
           "providedExports": [
             "createLikeRestoButtonTemplate",
+            "createSkeletonRestoTemplate",
             "createUnlikeRestoButtonTemplate"
           ],
           "optimizationBailout": [],
-          "depth": 5
+          "depth": 4
         }
       ],
       "origins": [
@@ -9052,10 +9127,10 @@
           "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js|31edc6aea807368289b03faa3d019b95",
           "name": "./node_modules/idb/build/index.js + 1 modules",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js",
-          "index": 16,
-          "preOrderIndex": 16,
-          "index2": 12,
-          "postOrderIndex": 12,
+          "index": 17,
+          "preOrderIndex": 17,
+          "index2": 13,
+          "postOrderIndex": 13,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -9125,10 +9200,10 @@
               "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js",
               "name": "./node_modules/idb/build/index.js",
               "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js",
-              "index": 16,
-              "preOrderIndex": 16,
-              "index2": 12,
-              "postOrderIndex": 12,
+              "index": 17,
+              "preOrderIndex": 17,
+              "index2": 13,
+              "postOrderIndex": 13,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -9152,9 +9227,9 @@
                   "id": 6518
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-                  "name": "./src/scripts/views/pages/favorite.js",
-                  "id": 7488
+                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+                  "name": "./src/scripts/views/pages/detail.js",
+                  "id": 7371
                 },
                 {
                   "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -9199,10 +9274,10 @@
               "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\wrap-idb-value.js",
               "name": "./node_modules/idb/build/wrap-idb-value.js",
               "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\wrap-idb-value.js",
-              "index": 17,
-              "preOrderIndex": 17,
-              "index2": 11,
-              "postOrderIndex": 11,
+              "index": 18,
+              "preOrderIndex": 18,
+              "index2": 12,
+              "postOrderIndex": 12,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -9226,9 +9301,9 @@
                   "id": 6518
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-                  "name": "./src/scripts/views/pages/favorite.js",
-                  "id": 7488
+                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+                  "name": "./src/scripts/views/pages/detail.js",
+                  "id": 7371
                 },
                 {
                   "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -11079,7 +11154,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../routes/url-parser",
-          "loc": "37:20-59",
+          "loc": "38:20-59",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         }
@@ -14296,9 +14371,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 16700,
+      "size": 16827,
       "sizes": {
-        "javascript": 16700
+        "javascript": 16827
       },
       "built": true,
       "codeGenerated": true,
@@ -14309,8 +14384,8 @@
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
       "index": 5,
       "preOrderIndex": 5,
-      "index2": 10,
-      "postOrderIndex": 10,
+      "index2": 11,
+      "postOrderIndex": 11,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -14393,12 +14468,13 @@
         "default"
       ],
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 10:0-73:2",
+        "Statement (VariableDeclaration) with side effects in source code at 11:0-74:2",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/restaurant-source.js: Module ./src/scripts/data/restaurant-source.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) )",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/alert-initiator.js: Module ./src/scripts/utils/alert-initiator.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) app~e4317507)",
-        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/pages/favorite.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/templates/footer.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/list-resto.js: Module ./src/scripts/views/pages/favorite.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
-        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js"
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js",
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/template-creator.js: Module ./src/scripts/views/templates/template-creator.js is referenced from different chunks by these modules: ./src/scripts/utils/like-button-presenter.js"
       ],
       "depth": 3
     },
@@ -14417,10 +14493,10 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
       "name": "./src/scripts/views/pages/favorite.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-      "index": 14,
-      "preOrderIndex": 14,
-      "index2": 14,
-      "postOrderIndex": 14,
+      "index": 15,
+      "preOrderIndex": 15,
+      "index2": 15,
+      "postOrderIndex": 15,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -14492,7 +14568,7 @@
         "Statement (VariableDeclaration) with side effects in source code at 10:0-75:2",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/favorite-restaurant-idb.js: Module ./src/scripts/data/favorite-restaurant-idb.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) app~49ea73a0)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/alert-initiator.js: Module ./src/scripts/utils/alert-initiator.js is not in the same chunk(s) (expected in chunk(s) app~309f7e27, module is in chunk(s) app~e4317507)",
-        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/pages/home.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/templates/footer.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/list-resto.js: Module ./src/scripts/views/pages/home.js is referenced from different chunks by these modules: ./src/scripts/routes/routes.js",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is referenced from different chunks by these modules: ./src/scripts/views/pages/detail.js"
       ],
@@ -14502,9 +14578,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 18826,
+      "size": 19061,
       "sizes": {
-        "javascript": 18826
+        "javascript": 19061
       },
       "built": true,
       "codeGenerated": true,
@@ -14513,8 +14589,8 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
       "name": "./src/scripts/views/pages/detail.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
-      "index": 18,
-      "preOrderIndex": 18,
+      "index": 19,
+      "preOrderIndex": 19,
       "index2": 20,
       "postOrderIndex": 20,
       "cacheable": true,
@@ -14585,13 +14661,14 @@
         "default"
       ],
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 14:0-121:2",
+        "Statement (VariableDeclaration) with side effects in source code at 15:0-124:2",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/favorite-restaurant-idb.js: Module ./src/scripts/data/favorite-restaurant-idb.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~49ea73a0)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/data/restaurant-source.js: Module ./src/scripts/data/restaurant-source.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) )",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/routes/url-parser.js: Module ./src/scripts/routes/url-parser.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/alert-initiator.js: Module ./src/scripts/utils/alert-initiator.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/like-button-presenter.js: Module ./src/scripts/utils/like-button-presenter.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/post-review.js: Module ./src/scripts/utils/post-review.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~e4317507)",
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/footer.js: Module ./src/scripts/views/templates/footer.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/resto-detail.js: Module ./src/scripts/views/templates/resto-detail.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/review.js: Module ./src/scripts/views/templates/review.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)",
         "ModuleConcatenation bailout: Cannot concat with ./src/scripts/views/templates/spinner.js: Module ./src/scripts/views/templates/spinner.js is not in the same chunk(s) (expected in chunk(s) app~bc85f0ca, module is in chunk(s) app~309f7e27)"
@@ -15279,7 +15356,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../data/restaurant-source",
-          "loc": "46:21-57",
+          "loc": "48:21-57",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         },
@@ -15307,7 +15384,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../data/restaurant-source",
-          "loc": "45:21-55",
+          "loc": "49:21-55",
           "moduleId": 2660,
           "resolvedModuleId": 2660
         }
@@ -15625,7 +15702,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../templates/list-resto",
-          "loc": "49:43-52",
+          "loc": "53:43-52",
           "moduleId": 2660,
           "resolvedModuleId": 2660
         }
@@ -15778,7 +15855,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/alert-initiator",
-          "loc": "81:26-39",
+          "loc": "84:26-39",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         },
@@ -15792,7 +15869,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/alert-initiator",
-          "loc": "88:26-41",
+          "loc": "91:26-41",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         },
@@ -15806,7 +15883,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/alert-initiator",
-          "loc": "112:14-27",
+          "loc": "115:14-27",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         },
@@ -15862,7 +15939,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/alert-initiator",
-          "loc": "64:14-27",
+          "loc": "65:14-27",
           "moduleId": 2660,
           "resolvedModuleId": 2660
         }
@@ -15885,6 +15962,146 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 1382,
+      "sizes": {
+        "javascript": 1382
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\template-creator.js",
+      "name": "./src/scripts/views/templates/template-creator.js",
+      "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\template-creator.js",
+      "index": 12,
+      "preOrderIndex": 12,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+      "issuerName": "./src/scripts/views/pages/home.js",
+      "issuerPath": [
+        {
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\index.js",
+          "name": "./src/scripts/index.js",
+          "id": 1712
+        },
+        {
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\App.js",
+          "name": "./src/scripts/views/App.js",
+          "id": 4529
+        },
+        {
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\routes\\routes.js",
+          "name": "./src/scripts/routes/routes.js",
+          "id": 6518
+        },
+        {
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+          "name": "./src/scripts/views/pages/home.js",
+          "id": 2660
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 4150,
+      "issuerId": 2660,
+      "chunks": [
+        924
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
+          "module": "./src/scripts/utils/like-button-presenter.js",
+          "moduleName": "./src/scripts/utils/like-button-presenter.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
+          "resolvedModule": "./src/scripts/utils/like-button-presenter.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../views/templates/template-creator",
+          "loc": "5:0-117",
+          "moduleId": 7077,
+          "resolvedModuleId": 7077
+        },
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
+          "module": "./src/scripts/utils/like-button-presenter.js",
+          "moduleName": "./src/scripts/utils/like-button-presenter.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
+          "resolvedModule": "./src/scripts/utils/like-button-presenter.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../views/templates/template-creator",
+          "loc": "92:42-71",
+          "moduleId": 7077,
+          "resolvedModuleId": 7077
+        },
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
+          "module": "./src/scripts/utils/like-button-presenter.js",
+          "moduleName": "./src/scripts/utils/like-button-presenter.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
+          "resolvedModule": "./src/scripts/utils/like-button-presenter.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../views/templates/template-creator",
+          "loc": "114:42-73",
+          "moduleId": 7077,
+          "resolvedModuleId": 7077
+        },
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+          "module": "./src/scripts/views/pages/home.js",
+          "moduleName": "./src/scripts/views/pages/home.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+          "resolvedModule": "./src/scripts/views/pages/home.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../templates/template-creator",
+          "loc": "10:0-76",
+          "moduleId": 2660,
+          "resolvedModuleId": 2660
+        },
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+          "module": "./src/scripts/views/pages/home.js",
+          "moduleName": "./src/scripts/views/pages/home.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\home.js",
+          "resolvedModule": "./src/scripts/views/pages/home.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../templates/template-creator",
+          "loc": "18:411-438",
+          "moduleId": 2660,
+          "resolvedModuleId": 2660
+        }
+      ],
+      "usedExports": [
+        "createLikeRestoButtonTemplate",
+        "createSkeletonRestoTemplate",
+        "createUnlikeRestoButtonTemplate"
+      ],
+      "providedExports": [
+        "createLikeRestoButtonTemplate",
+        "createSkeletonRestoTemplate",
+        "createUnlikeRestoButtonTemplate"
+      ],
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 351,
       "sizes": {
         "javascript": 351
@@ -15896,10 +16113,10 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\spinner.js",
       "name": "./src/scripts/views/templates/spinner.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\spinner.js",
-      "index": 12,
-      "preOrderIndex": 12,
-      "index2": 8,
-      "postOrderIndex": 8,
+      "index": 13,
+      "preOrderIndex": 13,
+      "index2": 9,
+      "postOrderIndex": 9,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -15961,7 +16178,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../templates/spinner",
-          "loc": "43:34-41",
+          "loc": "45:34-41",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         },
@@ -16017,7 +16234,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../templates/spinner",
-          "loc": "42:34-41",
+          "loc": "41:34-41",
           "moduleId": 2660,
           "resolvedModuleId": 2660
         }
@@ -16046,10 +16263,10 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\footer.js",
       "name": "./src/scripts/views/templates/footer.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\footer.js",
-      "index": 13,
-      "preOrderIndex": 13,
-      "index2": 9,
-      "postOrderIndex": 9,
+      "index": 14,
+      "preOrderIndex": 14,
+      "index2": 10,
+      "postOrderIndex": 10,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -16087,6 +16304,34 @@
       ],
       "assets": [],
       "reasons": [
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "module": "./src/scripts/views/pages/detail.js",
+          "moduleName": "./src/scripts/views/pages/detail.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "resolvedModule": "./src/scripts/views/pages/detail.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../templates/footer",
+          "loc": "14:0-47",
+          "moduleId": 7371,
+          "resolvedModuleId": 7371
+        },
+        {
+          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "module": "./src/scripts/views/pages/detail.js",
+          "moduleName": "./src/scripts/views/pages/detail.js",
+          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "resolvedModule": "./src/scripts/views/pages/detail.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../templates/footer",
+          "loc": "69:33-45",
+          "moduleId": 7371,
+          "resolvedModuleId": 7371
+        },
         {
           "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
           "module": "./src/scripts/views/pages/favorite.js",
@@ -16139,7 +16384,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../templates/footer",
-          "loc": "55:33-45",
+          "loc": "56:33-45",
           "moduleId": 2660,
           "resolvedModuleId": 2660
         }
@@ -16168,15 +16413,15 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
       "name": "./src/scripts/data/favorite-restaurant-idb.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
-      "index": 15,
-      "preOrderIndex": 15,
-      "index2": 13,
-      "postOrderIndex": 13,
+      "index": 16,
+      "preOrderIndex": 16,
+      "index2": 14,
+      "postOrderIndex": 14,
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-      "issuerName": "./src/scripts/views/pages/favorite.js",
+      "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+      "issuerName": "./src/scripts/views/pages/detail.js",
       "issuerPath": [
         {
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\index.js",
@@ -16194,16 +16439,16 @@
           "id": 6518
         },
         {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-          "name": "./src/scripts/views/pages/favorite.js",
-          "id": 7488
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "name": "./src/scripts/views/pages/detail.js",
+          "id": 7371
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 2186,
-      "issuerId": 7488,
+      "issuerId": 7371,
       "chunks": [
         135
       ],
@@ -16233,7 +16478,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../data/favorite-restaurant-idb",
-          "loc": "51:37-58",
+          "loc": "53:37-58",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         },
@@ -16294,10 +16539,10 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\resto-detail.js",
       "name": "./src/scripts/views/templates/resto-detail.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\resto-detail.js",
-      "index": 19,
-      "preOrderIndex": 19,
-      "index2": 15,
-      "postOrderIndex": 15,
+      "index": 20,
+      "preOrderIndex": 20,
+      "index2": 16,
+      "postOrderIndex": 16,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -16359,7 +16604,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../templates/resto-detail",
-          "loc": "61:43-54",
+          "loc": "63:43-54",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         }
@@ -16391,8 +16636,8 @@
       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
       "name": "./src/scripts/utils/like-button-presenter.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-      "index": 20,
-      "preOrderIndex": 20,
+      "index": 21,
+      "preOrderIndex": 21,
       "index2": 17,
       "postOrderIndex": 17,
       "cacheable": true,
@@ -16456,7 +16701,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/like-button-presenter",
-          "loc": "49:14-38",
+          "loc": "51:14-38",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         }
@@ -16554,7 +16799,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../utils/post-review",
-          "loc": "86:33-43",
+          "loc": "89:33-43",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         }
@@ -16651,7 +16896,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../templates/review",
-          "loc": "66:33-42",
+          "loc": "68:33-42",
           "moduleId": 7371,
           "resolvedModuleId": 7371
         }
@@ -16833,9 +17078,9 @@
           "id": 6518
         },
         {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-          "name": "./src/scripts/views/pages/favorite.js",
-          "id": 7488
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "name": "./src/scripts/views/pages/detail.js",
+          "id": 7371
         },
         {
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -17345,10 +17590,10 @@
       "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js|31edc6aea807368289b03faa3d019b95",
       "name": "./node_modules/idb/build/index.js + 1 modules",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js",
-      "index": 16,
-      "preOrderIndex": 16,
-      "index2": 12,
-      "postOrderIndex": 12,
+      "index": 17,
+      "preOrderIndex": 17,
+      "index2": 13,
+      "postOrderIndex": 13,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -17417,10 +17662,10 @@
           "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js",
           "name": "./node_modules/idb/build/index.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\index.js",
-          "index": 16,
-          "preOrderIndex": 16,
-          "index2": 12,
-          "postOrderIndex": 12,
+          "index": 17,
+          "preOrderIndex": 17,
+          "index2": 13,
+          "postOrderIndex": 13,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -17443,9 +17688,9 @@
               "id": 6518
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-              "name": "./src/scripts/views/pages/favorite.js",
-              "id": 7488
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "name": "./src/scripts/views/pages/detail.js",
+              "id": 7371
             },
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -17490,10 +17735,10 @@
           "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\wrap-idb-value.js",
           "name": "./node_modules/idb/build/wrap-idb-value.js",
           "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\wrap-idb-value.js",
-          "index": 17,
-          "preOrderIndex": 17,
-          "index2": 11,
-          "postOrderIndex": 11,
+          "index": 18,
+          "preOrderIndex": 18,
+          "index2": 12,
+          "postOrderIndex": 12,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -17516,9 +17761,9 @@
               "id": 6518
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-              "name": "./src/scripts/views/pages/favorite.js",
-              "id": 7488
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+              "name": "./src/scripts/views/pages/detail.js",
+              "id": 7371
             },
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -17686,121 +17931,6 @@
     },
     {
       "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 566,
-      "sizes": {
-        "javascript": 566
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\template-creator.js",
-      "name": "./src/scripts/views/templates/template-creator.js",
-      "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\templates\\template-creator.js",
-      "index": 21,
-      "preOrderIndex": 21,
-      "index2": 16,
-      "postOrderIndex": 16,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-      "issuerName": "./src/scripts/utils/like-button-presenter.js",
-      "issuerPath": [
-        {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\index.js",
-          "name": "./src/scripts/index.js",
-          "id": 1712
-        },
-        {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\App.js",
-          "name": "./src/scripts/views/App.js",
-          "id": 4529
-        },
-        {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\routes\\routes.js",
-          "name": "./src/scripts/routes/routes.js",
-          "id": 6518
-        },
-        {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 7371
-        },
-        {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "name": "./src/scripts/utils/like-button-presenter.js",
-          "id": 7077
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 4150,
-      "issuerId": 7077,
-      "chunks": [
-        924
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "module": "./src/scripts/utils/like-button-presenter.js",
-          "moduleName": "./src/scripts/utils/like-button-presenter.js",
-          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "resolvedModule": "./src/scripts/utils/like-button-presenter.js",
-          "type": "harmony side effect evaluation",
-          "active": false,
-          "explanation": "",
-          "userRequest": "../views/templates/template-creator",
-          "loc": "5:0-117",
-          "moduleId": 7077,
-          "resolvedModuleId": 7077
-        },
-        {
-          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "module": "./src/scripts/utils/like-button-presenter.js",
-          "moduleName": "./src/scripts/utils/like-button-presenter.js",
-          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "resolvedModule": "./src/scripts/utils/like-button-presenter.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../views/templates/template-creator",
-          "loc": "92:42-71",
-          "moduleId": 7077,
-          "resolvedModuleId": 7077
-        },
-        {
-          "moduleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "module": "./src/scripts/utils/like-button-presenter.js",
-          "moduleName": "./src/scripts/utils/like-button-presenter.js",
-          "resolvedModuleIdentifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\utils\\like-button-presenter.js",
-          "resolvedModule": "./src/scripts/utils/like-button-presenter.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../views/templates/template-creator",
-          "loc": "114:42-73",
-          "moduleId": 7077,
-          "resolvedModuleId": 7077
-        }
-      ],
-      "usedExports": [
-        "createLikeRestoButtonTemplate",
-        "createUnlikeRestoButtonTemplate"
-      ],
-      "providedExports": [
-        "createLikeRestoButtonTemplate",
-        "createUnlikeRestoButtonTemplate"
-      ],
-      "optimizationBailout": [],
-      "depth": 5
-    },
-    {
-      "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
       "size": 7495,
@@ -17814,10 +17944,10 @@
       "identifier": "javascript/esm|D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\wrap-idb-value.js",
       "name": "./node_modules/idb/build/wrap-idb-value.js",
       "nameForCondition": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\idb\\build\\wrap-idb-value.js",
-      "index": 17,
-      "preOrderIndex": 17,
-      "index2": 11,
-      "postOrderIndex": 11,
+      "index": 18,
+      "preOrderIndex": 18,
+      "index2": 12,
+      "postOrderIndex": 12,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -17840,9 +17970,9 @@
           "id": 6518
         },
         {
-          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\favorite.js",
-          "name": "./src/scripts/views/pages/favorite.js",
-          "id": 7488
+          "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\views\\pages\\detail.js",
+          "name": "./src/scripts/views/pages/detail.js",
+          "id": 7371
         },
         {
           "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -18379,8 +18509,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "314a45bb3fa24d870ea8",
       "version": "5.75.0",
-      "time": 99,
-      "builtAt": 1671976142425,
+      "time": 85,
+      "builtAt": 1671982553484,
       "publicPath": "",
       "outputPath": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\dist",
       "assetsByChunkName": {},
@@ -18978,8 +19108,8 @@
       "name": "InjectManifest",
       "hash": "796fe15541b592f366f0",
       "version": "5.75.0",
-      "time": 2450,
-      "builtAt": 1671976144764,
+      "time": 2178,
+      "builtAt": 1671982555549,
       "publicPath": "auto",
       "outputPath": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\dist",
       "assetsByChunkName": {
@@ -22263,8 +22393,8 @@
                   "optional": false,
                   "orphan": false,
                   "dependent": true,
-                  "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-                  "issuerName": "./node_modules/workbox-precaching/addRoute.js",
+                  "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+                  "issuerName": "./node_modules/workbox-precaching/addPlugins.js",
                   "issuerPath": [
                     {
                       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\sw.js",
@@ -22282,8 +22412,8 @@
                       "id": null
                     },
                     {
-                      "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-                      "name": "./node_modules/workbox-precaching/addRoute.js",
+                      "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+                      "name": "./node_modules/workbox-precaching/addPlugins.js",
                       "id": null
                     }
                   ],
@@ -28254,8 +28384,8 @@
               "cacheable": true,
               "optional": false,
               "orphan": false,
-              "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-              "issuerName": "./node_modules/workbox-precaching/addRoute.js",
+              "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+              "issuerName": "./node_modules/workbox-precaching/addPlugins.js",
               "issuerPath": [
                 {
                   "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\sw.js",
@@ -28273,8 +28403,8 @@
                   "id": null
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-                  "name": "./node_modules/workbox-precaching/addRoute.js",
+                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+                  "name": "./node_modules/workbox-precaching/addPlugins.js",
                   "id": null
                 }
               ],
@@ -34808,8 +34938,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": true,
-          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-          "issuerName": "./node_modules/workbox-precaching/addRoute.js",
+          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+          "issuerName": "./node_modules/workbox-precaching/addPlugins.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\sw.js",
@@ -34827,8 +34957,8 @@
               "id": null
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-              "name": "./node_modules/workbox-precaching/addRoute.js",
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+              "name": "./node_modules/workbox-precaching/addPlugins.js",
               "id": null
             }
           ],
@@ -40111,8 +40241,8 @@
       "name": "InjectManifest",
       "hash": "796fe15541b592f366f0",
       "version": "5.75.0",
-      "time": 2476,
-      "builtAt": 1671976144784,
+      "time": 2198,
+      "builtAt": 1671982555576,
       "publicPath": "auto",
       "outputPath": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\dist",
       "assetsByChunkName": {
@@ -43396,8 +43526,8 @@
                   "optional": false,
                   "orphan": false,
                   "dependent": true,
-                  "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-                  "issuerName": "./node_modules/workbox-precaching/addRoute.js",
+                  "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+                  "issuerName": "./node_modules/workbox-precaching/addPlugins.js",
                   "issuerPath": [
                     {
                       "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\sw.js",
@@ -43415,8 +43545,8 @@
                       "id": null
                     },
                     {
-                      "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-                      "name": "./node_modules/workbox-precaching/addRoute.js",
+                      "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+                      "name": "./node_modules/workbox-precaching/addPlugins.js",
                       "id": null
                     }
                   ],
@@ -49387,8 +49517,8 @@
               "cacheable": true,
               "optional": false,
               "orphan": false,
-              "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-              "issuerName": "./node_modules/workbox-precaching/addRoute.js",
+              "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+              "issuerName": "./node_modules/workbox-precaching/addPlugins.js",
               "issuerPath": [
                 {
                   "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\sw.js",
@@ -49406,8 +49536,8 @@
                   "id": null
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-                  "name": "./node_modules/workbox-precaching/addRoute.js",
+                  "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+                  "name": "./node_modules/workbox-precaching/addPlugins.js",
                   "id": null
                 }
               ],
@@ -55941,8 +56071,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": true,
-          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-          "issuerName": "./node_modules/workbox-precaching/addRoute.js",
+          "issuer": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+          "issuerName": "./node_modules/workbox-precaching/addPlugins.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[2].use[0]!D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\src\\scripts\\sw.js",
@@ -55960,8 +56090,8 @@
               "id": null
             },
             {
-              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addRoute.js",
-              "name": "./node_modules/workbox-precaching/addRoute.js",
+              "identifier": "D:\\Dicoding Web Basic\\Expert\\warkopbae-restaurant-apps\\node_modules\\workbox-precaching\\addPlugins.js",
+              "name": "./node_modules/workbox-precaching/addPlugins.js",
               "id": null
             }
           ],

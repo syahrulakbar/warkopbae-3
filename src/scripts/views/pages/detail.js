@@ -7,6 +7,7 @@ import LikeButtonPresenter from "../../utils/like-button-presenter";
 import PostReview from "../../utils/post-review";
 import { initSwalError, initSwalSuccess } from "../../utils/alert-initiator";
 import FavoriteRestaurantIdb from "../../data/favorite-restaurant-idb";
+import CustomFooter from "../templates/footer";
 
 const Detail = {
   async render() {
@@ -19,6 +20,7 @@ const Detail = {
     <div class="add-review-container">
       
     </div>
+    <footer id="footer-section" aria-label="footer menu"/>
   </div>
         `;
   },
@@ -29,6 +31,7 @@ const Detail = {
     const detailContainer = document.querySelector("#detail-resto");
     const review = document.querySelector(".add-review-container");
     const loading = document.querySelector("#loading");
+    const footer = document.querySelector("#footer-section");
 
     detailContainer.style.display = "none";
     loading.innerHTML = Spinner();
@@ -53,6 +56,7 @@ const Detail = {
         loading.style.display = "none";
       }, 50);
       review.innerHTML = AddReview();
+      footer.innerHTML = CustomFooter();
       const nameInput = document.querySelector("#input-name");
       const reviewInput = document.querySelector("#input-review");
       const buttonReview = document.querySelector("#button-review");
