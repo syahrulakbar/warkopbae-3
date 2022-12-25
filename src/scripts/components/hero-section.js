@@ -6,7 +6,13 @@ class HeroSection extends HTMLElement {
   render() {
     this.innerHTML = `
     <section tabindex="0" class="hero-section" aria-label="Hero Section">
-    <img tabindex="0" class="banner-image" src="./images/heros/hero-image_4.jpg" alt="banner-image" srcset="" />
+    <picture>
+        <source type="image/webp" srcset="./images/heros/hero-image_4.webp">
+        <source type="image/jpeg" srcset="./images/heros/hero-image_4-1000.jpg">
+        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_4-400.jpg" >
+        <img tabindex="0" src="./images/heros/hero-image_4-1000.jpg" 
+        alt="banner-image" class="banner-image">
+    </picture>
     <div class="desc">
       <div class="desc-content">
         <h2 tabindex="0">Find <span>A Good Place,

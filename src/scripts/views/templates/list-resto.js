@@ -6,7 +6,7 @@ const listResto = (resto) => `
       <div aria-labelledby="name restaurant is ${resto.name}" class="resto-desc">
       <h3 tabindex="0" class="name-resto">${resto.name}</h3>   
       </div>
-      <img tabindex="0" src="${CONFIG.BASE_IMAGE_URL + resto.pictureId}" alt="${resto.name} restaurant image" srcset="" />
+      <img tabindex="0" class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL + resto.pictureId}" alt="${resto.name} restaurant image" />
       <div tabindex="0" class="place-resto" aria-labelledby="place restaurant ${resto.name} in ${resto.city} City">
       <h3>${resto.city} City</h3>
       </div>

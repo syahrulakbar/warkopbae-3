@@ -39,6 +39,7 @@ const RestoDetail = (resto) => `
     Foods
     </h3>
     <div class="food-list">
+    <ul>
       ${resto.menus.foods
         .map(
           (food) => `
@@ -46,6 +47,7 @@ const RestoDetail = (resto) => `
           `
         )
         .join("")}   
+    </ul>
     </div>
     </div>
     <div class="drinks-container">
@@ -54,14 +56,16 @@ const RestoDetail = (resto) => `
       Drinks
       </h3>
       <div class="drink-list">
-        ${resto.menus.drinks
-          .map(
-            (drink) => `
-            <li tabindex="0">${drink.name}</li>
-            `
-          )
-          .join("")}
+      <ul>
+      ${resto.menus.drinks
+        .map(
+          (drink) => `
+          <li tabindex="0">${drink.name}</li>
+          `
+        )
+        .join("")}
           
+      </ul>
       </div>
     </div>
 

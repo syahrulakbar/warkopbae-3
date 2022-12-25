@@ -1,7 +1,10 @@
 /* eslint-disable no-lone-blocks */
 /* eslint-disable max-len */
 const Spinner = () => `
-    <div class="loader" style="background: white url(./images/spinner.gif) no-repeat center; background-size:40%"></div>
+    <video class="loader" autoplay loop muted playsinline>
+        <source src="./images/spinner.webm" type="video/webm">
+        <source src="./images/spinner.mp4" type="video/mp4">
+    </video>
 `;
 
 export default Spinner;

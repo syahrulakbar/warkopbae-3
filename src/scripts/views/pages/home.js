@@ -37,7 +37,7 @@ const Home = {
       setTimeout(() => {
         homeContainer.style.display = "block";
         loading.style.display = "none";
-      }, 800);
+      }, 50);
     } catch (error) {
       console.log(error);
       loading.style.display = "none";

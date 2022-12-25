@@ -32,13 +32,13 @@ const FavoritePage = {
         favoriteContent.innerHTML = `
         <div class="empty-favorite">
           <img tabindex="0" class="empty-image" src="./images/empty_data.png" alt="empty data image" srcset="" />
-          <h5 tabindex="0" class="empty-title">Add your favorite restaurant</h5>
+          <h3 tabindex="0" class="empty-title">Add your favorite restaurant</h3>
           <p tabindex="0" class="empty-desc">add your favorite restaurant by pressing the heart button on the restaurant detail page</p>
         </div>`;
       }
       setTimeout(() => {
         loading.style.display = "none";
-      }, 500);
+      }, 50);
     } catch (err) {
       console.error(err);
       loading.style.display = "none";

@@ -57,7 +57,7 @@ const Detail = {
       setTimeout(() => {
         detailContainer.style.display = "block";
         loading.style.display = "none";
-      }, 800);
+      }, 50);
 
       const nameInput = document.querySelector("#input-name");
       const reviewInput = document.querySelector("#input-review");
