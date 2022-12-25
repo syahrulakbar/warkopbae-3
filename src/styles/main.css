@@ -23,6 +23,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #4b6143;
 }
+
+main {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   top: -40px;

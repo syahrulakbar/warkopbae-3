@@ -2,9 +2,11 @@ import RestaurantSource from "../../data/restaurant-source";
 import UrlParser from "../../routes/url-parser";
 import RestoDetail from "../templates/resto-detail";
 import Spinner from "../templates/spinner";
-import LikeButtonInitiator from "../../utils/like-button-initiator";
+import AddReview from "../templates/review";
+import LikeButtonPresenter from "../../utils/like-button-presenter";
 import PostReview from "../../utils/post-review";
 import { initSwalError, initSwalSuccess } from "../../utils/alert-initiator";
+import FavoriteRestaurantIdb from "../../data/favorite-restaurant-idb";
 
 const Detail = {
   async render() {
@@ -15,17 +17,7 @@ const Detail = {
     <section id="detail-resto"></section>
     
     <div class="add-review-container">
-      <form class="review-form" autocomplete="on">
-        <div class="name-container">
-          <label for="input-name">Name</label>
-          <input placeholder="Your Name"  id="input-name" type="text" required />
-        </div>
-        <div class="review-container">
-          <label for="input-review">Review</label>
-          <textarea placeholder="Your Review"  id="input-review" cols="30" rows="4" required ></textarea>
-        </div>
-        <button tabindex="0" id="button-review" type="submit">Add Review</button>
-      </form>
+      
     </div>
   </div>
         `;
@@ -35,6 +27,7 @@ const Detail = {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const mainContainer = document.querySelector("#main-container");
     const detailContainer = document.querySelector("#detail-resto");
+    const review = document.querySelector(".add-review-container");
     const loading = document.querySelector("#loading");
 
     detailContainer.style.display = "none";
@@ -42,8 +35,9 @@ const Detail = {
     try {
       const data = await RestaurantSource.getRestaurantDetail(url.id);
 
-      LikeButtonInitiator.init({
+      LikeButtonPresenter.init({
         likeButtonContainer: document.querySelector("#likeButtonContainer"),
+        favoriteRestaurants: FavoriteRestaurantIdb,
         restaurant: {
           id: data.id,
           name: data.name,
@@ -58,7 +52,7 @@ const Detail = {
         detailContainer.style.display = "block";
         loading.style.display = "none";
       }, 50);
-
+      review.innerHTML = AddReview();
       const nameInput = document.querySelector("#input-name");
       const reviewInput = document.querySelector("#input-review");
       const buttonReview = document.querySelector("#button-review");

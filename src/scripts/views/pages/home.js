@@ -1,6 +1,7 @@
 import RestaurantSource from "../../data/restaurant-source";
 import listResto from "../templates/list-resto";
 import Spinner from "../templates/spinner";
+import CustomFooter from "../templates/footer";
 import { initSwalError } from "../../utils/alert-initiator";
 
 const Home = {
@@ -15,6 +16,7 @@ const Home = {
         <div class="item-resto"></div>
         </section>
       </div>
+      <footer id="footer-section" aria-label="footer menu"/>
     </div>
         `;
   },
@@ -23,6 +25,7 @@ const Home = {
     const itemContainer = document.querySelector(".item-resto");
     const homeContainer = document.querySelector("#home-container");
     const mainContainer = document.querySelector(".main-container");
+    const footer = document.querySelector("#footer-section");
     const loading = document.querySelector("#loading");
     const navFavorite = document.querySelector("#navFavorite");
 
@@ -38,6 +41,7 @@ const Home = {
         homeContainer.style.display = "block";
         loading.style.display = "none";
       }, 50);
+      footer.innerHTML = CustomFooter();
     } catch (error) {
       console.log(error);
       loading.style.display = "none";

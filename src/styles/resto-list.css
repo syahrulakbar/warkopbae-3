@@ -1,5 +1,6 @@
 img.banner-image {
   width: 100%;
+  height: max-content;
   filter: grayscale(50%);
 }
 section.hero-section {
@@ -8,7 +9,7 @@ section.hero-section {
 .desc {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
-  height: 100%;
+  height: 98%;
   position: absolute;
   top: 0;
   display: flex;

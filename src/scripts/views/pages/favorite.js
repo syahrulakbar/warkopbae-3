@@ -2,6 +2,7 @@ import FavoriteRestaurantIdb from "../../data/favorite-restaurant-idb";
 import listResto from "../templates/list-resto";
 import Spinner from "../templates/spinner";
 import { initSwalError } from "../../utils/alert-initiator";
+import CustomFooter from "../templates/footer";
 
 const FavoritePage = {
   async render() {
@@ -14,6 +15,7 @@ const FavoritePage = {
       <section tabindex="0" class="main-content" aria-label="list restaurant">
       <div class="item-resto"></div>
       </section>
+      <footer id="footer-section" aria-label="footer menu"/>
     </div>
       `;
   },
@@ -21,6 +23,7 @@ const FavoritePage = {
   async afterRender() {
     const favoriteContent = document.querySelector(".item-resto");
     const favoriteContainer = document.querySelector(".favorite-container");
+    const footer = document.querySelector("#footer-section");
     const loading = document.querySelector("#loading");
     loading.innerHTML = Spinner();
     try {
@@ -39,6 +42,7 @@ const FavoritePage = {
       setTimeout(() => {
         loading.style.display = "none";
       }, 50);
+      footer.innerHTML = CustomFooter();
     } catch (err) {
       console.error(err);
       loading.style.display = "none";
