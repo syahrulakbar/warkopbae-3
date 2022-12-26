@@ -2,9 +2,9 @@
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable max-len */
-import FavoriteRestaurantSearchPresenter from "../src/scripts/views/pages/liked-movies/favorite-restaurant-search-presenter";
+import FavoriteRestaurantSearchPresenter from "../src/scripts/views/pages/liked-restaurants/favorite-restaurant-search-presenter";
 import FavoriteRestaurantIdb from "../src/scripts/data/favorite-restaurant-idb";
-import FavoriteRestaurantSearchView from "../src/scripts/views/pages/liked-movies/favorite-restaurant-search-view";
+import FavoriteRestaurantSearchView from "../src/scripts/views/pages/liked-restaurants/favorite-restaurant-search-view";
 
 describe("Searching restaurants", () => {
   let presenter;
@@ -67,7 +67,7 @@ describe("Searching restaurants", () => {
     });
 
     it("should show - when the resto returned does not contain a title", (done) => {
-      document.getElementById("restaurant-search-container").addEventListener("restaurants:searched:updated", () => {
+      document.getElementById("restaurants").addEventListener("restaurants:updated", () => {
         const restaurantTitles = document.querySelectorAll(".restaurant__title");
 
         expect(restaurantTitles.item(0).textContent).toEqual("-");
@@ -81,8 +81,8 @@ describe("Searching restaurants", () => {
     });
 
     it("should show the resto found by Favorite Restaurants", (done) => {
-      document.getElementById("restaurant-search-container").addEventListener("restaurants:searched:updated", () => {
-        expect(document.querySelectorAll(".restaurant").length).toEqual(3);
+      document.getElementById("restaurants").addEventListener("restaurants:updated", () => {
+        expect(document.querySelectorAll(".restaurant-item").length).toEqual(3);
 
         done();
       });
@@ -97,7 +97,7 @@ describe("Searching restaurants", () => {
     });
 
     it("should show the name of the movies found by Favorite Restaurants", (done) => {
-      document.getElementById("restaurant-search-container").addEventListener("restaurants:searched:updated", () => {
+      document.getElementById("restaurants").addEventListener("restaurants:updated", () => {
         const restaurantTitles = document.querySelectorAll(".restaurant__title");
 
         expect(restaurantTitles.item(0).textContent).toEqual("restaurant abc");
@@ -118,8 +118,8 @@ describe("Searching restaurants", () => {
 
   describe("When no favorite resto could be found", () => {
     it("should show the empty message", (done) => {
-      document.getElementById("restaurant-search-container").addEventListener("restaurants:searched:updated", () => {
-        expect(document.querySelectorAll(".restaurants__not__found").length).toEqual(1);
+      document.getElementById("restaurants").addEventListener("restaurants:updated", () => {
+        expect(document.querySelectorAll(".restaurant-item__not__found").length).toEqual(1);
 
         done();
       });
@@ -130,8 +130,8 @@ describe("Searching restaurants", () => {
     });
 
     it("should not show any movie", (done) => {
-      document.getElementById("restaurant-search-container").addEventListener("restaurants:searched:updated", () => {
-        expect(document.querySelectorAll(".restaurant").length).toEqual(0);
+      document.getElementById("restaurants").addEventListener("restaurants:updated", () => {
+        expect(document.querySelectorAll(".restaurant-item").length).toEqual(0);
 
         done();
       });

@@ -1,6 +1,7 @@
 import CONFIG from "../../globals/config";
 
 const listResto = (resto) => ` 
+      <div class="card-container">
       <a href="#/restaurant/${resto.id}" class="tag-card">
       <div id ="${resto.id}" class="card">
       <div aria-labelledby="name restaurant is ${resto.name}" class="resto-desc">
@@ -15,6 +16,8 @@ const listResto = (resto) => `
       </div>
       </div>
       </a>
+      </div>
+
     `;
 
 export default listResto;

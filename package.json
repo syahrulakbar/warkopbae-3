@@ -10,7 +10,8 @@
     "serve": "http-server dist",
     "build-serve": "npm run build && npm run serve",
     "build-image": "node sharp.js",
-    "build-video": "node build-video.js"
+    "build-video": "node build-video.js",
+    "e2e": "codeceptjs run --steps"
   },
   "keywords": [],
   "author": "Mochamad Syahrul Akbar <07tav2akbar2gmail.com>",
@@ -20,6 +21,7 @@
     "@babel/preset-env": "^7.18.2",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
+    "codeceptjs": "^3.3.7",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.28.0",
@@ -41,6 +43,7 @@
     "karma-jasmine": "^4.0.2",
     "karma-sourcemap-loader": "^0.3.8",
     "karma-webpack": "^5.0.0",
+    "puppeteer": "^19.4.1",
     "sharp": "^0.31.3",
     "style-loader": "^3.3.1",
     "webpack": "^5.73.0",

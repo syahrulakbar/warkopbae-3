@@ -26,6 +26,7 @@ const app = new App({
 });
 
 window.addEventListener("hashchange", () => {
+  document.querySelector("#maincontent").scrollIntoView();
   app.renderPage();
 });
 

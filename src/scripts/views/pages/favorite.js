@@ -13,7 +13,7 @@ const FavoritePage = {
         <h2 tabindex="0" class="title-page">Favorite Restaurant</h2>
       </div>    
       <section tabindex="0" class="main-content" aria-label="list restaurant">
-      <div class="item-resto"></div>
+      <div id="fav-resto" class="item-resto"></div>
       </section>
       <footer id="footer-section" aria-label="footer menu"/>
     </div>
@@ -37,7 +37,8 @@ const FavoritePage = {
           <img tabindex="0" class="empty-image" src="./images/empty_data.png" alt="empty data image" srcset="" />
           <h3 tabindex="0" class="empty-title">Add your favorite restaurant</h3>
           <p tabindex="0" class="empty-desc">add your favorite restaurant by pressing the heart button on the restaurant detail page</p>
-        </div>`;
+        </div>
+        `;
       }
       setTimeout(() => {
         loading.style.display = "none";

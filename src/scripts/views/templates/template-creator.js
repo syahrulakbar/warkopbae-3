@@ -48,6 +48,20 @@ const createSkeletonRestoTemplate = (count) => {
   return template;
 };
 
+const createRestaurantTemplate = (resto) => `
+      <a href="#/restaurant/${resto.id}" class="restaurant-item">
+      <div id ="${resto.id}" class="card">
+      <h3 tabindex="0" class="name-resto restaurant__title">${resto.title || "-"}</h3>   
+      </div>
+      <div tabindex="0" class="place-resto" >
+      </div>
+      <div class="rating-resto" tabindex="0" >
+       <p>${resto.overview || "-"}</p>     
+      </div>
+      </div>
+      </a>
+
+`;
 const createSkeletonRestoDetailTemplate = () => `
 <section class="resto-detail-section">
 <div class="resto-detail-content">
@@ -104,4 +118,4 @@ const createSkeletonRestoDetailTemplate = () => `
 </section>
 `;
 
-export { createLikeRestoButtonTemplate, createUnlikeRestoButtonTemplate, createSkeletonRestoTemplate, createSkeletonHeroTemplate, createSkeletonRestoDetailTemplate };
+export { createLikeRestoButtonTemplate, createUnlikeRestoButtonTemplate, createSkeletonRestoTemplate, createSkeletonHeroTemplate, createSkeletonRestoDetailTemplate, createRestaurantTemplate };
