@@ -3,7 +3,7 @@ import listResto from "../templates/list-resto";
 import Spinner from "../templates/spinner";
 import CustomFooter from "../templates/footer";
 import { initSwalError } from "../../utils/alert-initiator";
-import { createSkeletonRestoTemplate } from "../templates/template-creator";
+import { createSkeletonRestoTemplate, createSkeletonHeroTemplate } from "../templates/template-creator";
 
 const Home = {
   async render() {
@@ -11,8 +11,9 @@ const Home = {
     <div class="main-container">
       <div id="loading"></div>
       <div id="home-container">
-        <hero-section></hero-section>
-        <h2 tabindex="0" class="sub-title">Explore Restaurant</h2>
+        <div class="hero_section">
+        ${createSkeletonHeroTemplate()}
+        </div>
         <section tabindex="0" class="main-content" aria-label="list restaurant">
           <div class="item-resto">
           ${createSkeletonRestoTemplate(20)}
@@ -25,7 +26,8 @@ const Home = {
   },
   //   Fungsi ini akan dipanggil setelah render ()
   async afterRender() {
-    // const heroContainer = document.querySelector("#hero-container");
+    const heroContainer = document.querySelector(".hero_section");
+    const homeContainer = document.querySelector("#home-container");
     const mainContainer = document.querySelector(".main-container");
     const footer = document.querySelector("#footer-section");
     const loading = document.querySelector("#loading");
@@ -34,9 +36,11 @@ const Home = {
     navFavorite.classList.remove("active");
     loading.innerHTML = Spinner();
     try {
-      // heroContainer.innerHTML = `
-      // <hero-section></hero-section>
-      // `;
+      homeContainer.style.display = "none";
+      heroContainer.innerHTML = `
+      <hero-section></hero-section>
+      <h2 tabindex="0" class="sub-title">Explore Restaurant</h2>
+      `;
       const itemContainer = document.querySelector(".item-resto");
       itemContainer.innerHTML = "";
 
@@ -45,6 +49,8 @@ const Home = {
         itemContainer.innerHTML += listResto(restaurant);
       });
       loading.style.display = "none";
+      homeContainer.style.display = "block";
+
       footer.innerHTML = CustomFooter();
     } catch (error) {
       console.log(error);

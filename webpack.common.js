@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
 const ImageminWebpackPlugin = require("imagemin-webpack-plugin").default;
 const ImageminMozjpeg = require("imagemin-mozjpeg");
+const imageminPngquant = require("imagemin-pngquant");
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 
 module.exports = {
@@ -15,6 +16,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+
   module: {
     rules: [
       {
@@ -71,6 +73,9 @@ module.exports = {
         ImageminMozjpeg({
           quality: 50,
           progressive: true,
+        }),
+        imageminPngquant({
+          quality: [0.3, 0.5],
         }),
       ],
     }),

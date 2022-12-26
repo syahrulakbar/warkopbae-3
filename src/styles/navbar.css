@@ -31,7 +31,6 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a:focus,
 nav ul li a.active {
-  text-decoration: underline;
   color: #5f8d4e;
 }
 

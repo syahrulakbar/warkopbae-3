@@ -8,6 +8,7 @@ import PostReview from "../../utils/post-review";
 import { initSwalError, initSwalSuccess } from "../../utils/alert-initiator";
 import FavoriteRestaurantIdb from "../../data/favorite-restaurant-idb";
 import CustomFooter from "../templates/footer";
+import { createSkeletonRestoDetailTemplate } from "../templates/template-creator";
 
 const Detail = {
   async render() {
@@ -15,11 +16,13 @@ const Detail = {
   <div id="main-container">
     <div id="loading"></div>
     <div id="likeButtonContainer"></div>
-    <section id="detail-resto"></section>
-    
+    <section id="detail-resto">
+    ${createSkeletonRestoDetailTemplate()}
+    </section>
     <div class="add-review-container">
-      
     </div>
+    
+ 
     <footer id="footer-section" aria-label="footer menu"/>
   </div>
         `;
@@ -33,9 +36,9 @@ const Detail = {
     const loading = document.querySelector("#loading");
     const footer = document.querySelector("#footer-section");
 
-    detailContainer.style.display = "none";
     loading.innerHTML = Spinner();
     try {
+      detailContainer.style.display = "none";
       const data = await RestaurantSource.getRestaurantDetail(url.id);
 
       LikeButtonPresenter.init({
@@ -50,11 +53,11 @@ const Detail = {
           rating: data.rating,
         },
       });
-      detailContainer.innerHTML += RestoDetail(data);
-      setTimeout(() => {
-        detailContainer.style.display = "block";
-        loading.style.display = "none";
-      }, 50);
+      detailContainer.innerHTML = RestoDetail(data);
+
+      detailContainer.style.display = "block";
+      loading.style.display = "none";
+
       review.innerHTML = AddReview();
       footer.innerHTML = CustomFooter();
       const nameInput = document.querySelector("#input-name");

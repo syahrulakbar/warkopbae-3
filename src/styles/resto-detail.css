@@ -16,6 +16,7 @@
 }
 .image-detail-resto img {
   width: 100%;
+  height: max-content;
   border-radius: 20px;
 }
 .desc-container {
