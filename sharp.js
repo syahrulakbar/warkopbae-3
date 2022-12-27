@@ -15,8 +15,16 @@ fs.readdirSync(target).forEach((image) => {
     .resize(1000)
     .toFile(path.resolve(__dirname, `${destination}/${image.split(".").slice(0, -1).join(".")}-1000.jpg`));
 
+  sharp(`${target}/${image}`)
+    .resize(1000)
+    .toFile(path.resolve(__dirname, `${destination}/${image.split(".").slice(0, -1).join(".")}-1000.webp`));
+
   // mengubah ukuran gambar dengan lebar 400px, dengan prefix -400.jpg
   sharp(`${target}/${image}`)
     .resize(400)
     .toFile(path.resolve(__dirname, `${destination}/${image.split(".").slice(0, -1).join(".")}-400.jpg`));
+
+  sharp(`${target}/${image}`)
+    .resize(400)
+    .toFile(path.resolve(__dirname, `${destination}/${image.split(".").slice(0, -1).join(".")}-400.webp`));
 });

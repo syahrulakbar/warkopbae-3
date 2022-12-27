@@ -8,9 +8,10 @@ class HeroSection extends HTMLElement {
     this.innerHTML = `
     <section tabindex="0" class="hero-section" aria-label="Hero Section">
     <picture>
-        <source media="(min-width: 200px)" type="image/webp" srcset="./images/heros/hero-image_4.webp">
-        <source type="image/jpeg" srcset="./images/heros/hero-image_4.jpg">
-        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_4-400.jpg" >
+        <source type="image/webp" media="(max-width: 600px)" srcset="./images/heros/hero-image_4-400.webp" >
+        <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/heros/hero-image_4-400.jpg" >
+        <source type="image/webp" media="(max-width: 1000px)" srcset="./images/heros/hero-image_4-1000.webp" >
+        <source type="image/jpeg" media="(max-width: 1000px)" srcset="./images/heros/hero-image_4-1000.jpg" >
         <img tabindex="0" src="./images/heros/hero-image_4.jpg" 
         alt="banner-image" class="banner-image">
     </picture>
